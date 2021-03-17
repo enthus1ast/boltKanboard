@@ -1,0 +1,23 @@
+{
+    "name": "enthus1ast/bolteval",
+    "description": "an extension",
+    "type": "bolt-extension",
+    "authors": [
+        {
+            "name": "David Krause",
+            "email": "krause@biochem2.uni-frankfurt.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "enthus1ast\\bolteval\\": "src/"
+        }
+    },
+    "require": {
+
+    },
+    "extra": {
+          "entrypoint": "enthus1ast\\bolteval\\Extension"
+      }
+
+}
